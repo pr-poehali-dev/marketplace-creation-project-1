@@ -138,17 +138,7 @@ const ServicesSection = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             Дополнительные услуги
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="p-4 bg-white rounded-full inline-block mb-4">
-                <Icon name="Palette" size={32} className="text-blue-600" />
-              </div>
-              <h4 className="text-lg font-semibold mb-2">
-                Индивидуальный дизайн
-              </h4>
-              <p className="text-gray-600">Создаём венки по вашим пожеланиям</p>
-            </div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="text-center">
               <div className="p-4 bg-white rounded-full inline-block mb-4">
                 <Icon name="Truck" size={32} className="text-green-600" />
